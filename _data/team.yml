@@ -1,0 +1,20 @@
+
+- name: Thad Kerosky
+  image:
+  email: thadk@codeforworcester.org
+
+- name: Annie LaCourt
+  image:
+  email: annie@codeforworcester.org
+
+- name: Alex Merritt
+  image: alex-merritt.jpg
+  email: alex@codeforworcester.org
+
+- name: Matt Zagaja
+  image: matt-zagaja.jpg
+  email: mattz@codeforworcester.org
+
+- name: Brian Sanders
+  image: brian-sanders.jpg
+  email: brian@codeforworcester.org

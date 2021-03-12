@@ -1,0 +1,130 @@
+- name: MyCity
+  elevatorPitch: >
+    Working on Alexa skills to connect cities to 311 information.
+  repository: https://github.com/codeforworcester/voiceapp311
+  url: https://www.amazon.com/City-of-Worcester-Info/dp/B0843RR29K
+  partner:
+    - name: City of Worcester 311
+      url: https://www.cityofworcester.gov/311/
+  lead: Jamie Martini
+  technologies: Python, AWS
+  slackChannel: mycity
+  hangoutsSlug: mycity
+- name: Safe Water
+  repository: https://github.com/codeforworcester/safe-water
+  url: https://www.crwa.org/flagging-program.html
+  elevatorPitch: >-
+    We are predicting and visualizing the presence of hazardous drinking and surface water contaminants.
+    Currently, we help the Charles River Watershed Association deploying their predictive model,
+    as well as visualizing and communicating their data.
+  partner:
+    - name: Charles River Watershed Association
+      url: https://www.crwa.org/
+  lead: François Delavy
+  technologies: Python, R, PHP
+  slackChannel: water
+  hangoutsSlug: drinkingwater
+- name: Windfall Awareness project
+  repository: https://github.com/codeforworcester/windfall-elimination
+  url: https://ssacalculator.org
+  elevatorPitch: >-
+    A tool to help retirees affected by Social Security Windfall Elimination Program (WEP),
+    a program which can reduce SSA benefits by up to 50% for certain public servants.
+    This tool will help help affected workers better plan retirement and self-advocate
+    with the Social Security Administration.
+  lead: Thad Kerosky
+  partner:
+    - name: Office of Seth Moulton
+      url: https://moulton.house.gov/
+  technologies: Javascript, ObservableHQ, ReactJS, Gatsby
+  slackChannel: windfall-awareness
+  hangoutsSlug: windfallawareness
+- name: Plogalong
+  repository: https://github.com/codeforworcester/plogalong
+  elevatorPitch: >-
+    When you plog, you pick up trash as you go about your daily life... jogging,
+    hiking, or simply walking down the street. Plogalong helps you track your
+    plogs, connect with nearby ploggers, earn badges, and access local
+    discounts.
+  lead: Eva Kaniasty and Brian Sanders
+  partner:
+    - name: Plogging Worcester
+      url: https://www.plogalong.com
+  technologies: ReactNative, Javascript
+  slackChannel: plogalong
+  hangoutsSlug: plogalong
+- name: Clean Slate
+  elevatorPitch: |
+    With Citizens for Juvenile Justice, we're working to:
+
+    * Give people a chance at work and housing by helping them expunge their criminal record
+    * Advocate for changes to the very stringent expungement regulations
+  partner:
+    - name: Citizens for Juvenile Justice
+      url: https://www.cfjj.org/
+  lead: Jeremy Lang
+  slackChannel: clean-slate
+  hangoutsSlug: cleanslate
+  news: |
+    Current Goals:
+
+    * Data analysis to estimate number of expungable records
+    * User research for an online expungement form
+- name: Police Misconduct Data Trust
+  elevatorPitch: |
+    We're building a national index of police incidents. 
+    We connect journalists, social scientists, and criminal 
+    and civil rights lawyers to allow them to access injustice 
+    data across state lines in one shared location.
+  partner:
+    - name: The Tubman Project
+      url: https://tubmanproject.com/
+  lead: Darrell Malone
+  slackChannel: police-data-trust
+  news: |
+    This project is now launching our effort to aggregate data from multiple partners:
+    
+    * National Association of Criminal Defense Lawyers
+    * Measures for Justice
+    * Raheem.ai
+    * Fatal Encounters
+    * Texas Justice Initiative
+    And many more...
+- name: JobHopper
+  repository: https://github.com/codeforworcester/jobhopper
+  elevatorPitch: >-
+    The City of Somerville and a team of graduate students in Economics at
+    Harvard University are collaborating to equip policymakers, workforce
+    development systems, and labor market analysts with an easy to use visual
+    tool to help them understand how job changers successfully move between
+    professions.
+  partner:
+    - name: City of Somerville
+      url: https://www.somervillema.gov
+  lead: Annie LaCourt
+  slackChannel: jobhopper
+  hangoutsSlug: jobhopper
+- name: Advocacy Maps
+  elevatorPitch: >
+    The GGP mission is to better leverage the student voice in Massachusetts
+    to preserve and expand the quality of our democracies. The GGP is building
+    a legislative advocacy map that will be the centering mechanism for our
+    advocacy efforts as we aggregate student voices throughout MA to advance
+    critical democracy legislation. The GGP is supported by over a dozen (and
+    growing) student groups across Worcester College, and the Greater Worcester Area.
+  repository: https://github.com/codeforworcester/advocacy-maps
+  partner:
+    - name: Worcester College Clough Center for Constitutional Democracy
+      url: hhttps://www.bc.edu/content/bc-web/centers/clough.html
+  lead: Matt Victor
+  slackChannel: ggp-advocacy-map
+  hangoutsSlug: advocacymaps
+- name: VaccinateMA
+  elevatorPitch: >
+    We are a group of volunteers helping Massachusetts residents get vaccinated.
+    Our site uses a mix of automated and crowdsourced data to show vaccine 
+    appointment availability. VaccinateMA launched on January 17, 2021.
+  repository: https://github.com/codeforworcester/vaccinatema
+  lead: John Deyrup
+  slackChannel: vaccinatema-cfb-portal
+  hangoutsSlug: vaccinatema

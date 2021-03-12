@@ -1,0 +1,24 @@
+<nav class="page-links">
+    <ul class="list-unstyled">
+
+        {% for page in site.pages %}
+          {% if page.title and page.type == 'inNavBar' %}
+            <li>
+              <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+            </li>
+          {% endif %}
+        {% endfor %}
+
+	    <li>
+            <a href="{{ site.donate_url }}" class="btn-primary btn--small">Donate</a>
+        </li>
+
+    </ul>
+</nav>
+
+<!--
+About
+Our Work
+Civic Tech Events
+Code of Conduct
+-->

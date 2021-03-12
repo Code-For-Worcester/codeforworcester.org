@@ -1,0 +1,24 @@
+---
+title: Civic Tech Events
+permalink: "/events/"
+layout: page
+type: inNavBar
+---
+
+
+<h1 class="t-section-headline">Civic Tech Events</h1>
+
+<div class="centered">
+    <section>
+    <p>Know about an event that isn't listed here? <a href="mailto:hello@codeforworcester.org" Subject="Please Add This Event!"> Send us the event link</a> or <a href="https://github.com/codeforworcester/codeforworcester.org/blob/master/_data/events/active.yml">add it yourself</a>.</p>
+
+    <br>
+        {% for event in site.data.events.active %}
+    <div itemscope itemtype="http://schema.org/Event">
+        <h3><a href="{{event.url}}"><span itemprop="name" >{{ event.name }}</span>- <span itemprop="startDate">{{ event.date }}</span></a></h3>
+        <p><i itemprop="location">{{ event.location }}</i></p>
+        <p itemprop="description">{{ event.description | markdownify }}</p><br>
+    </div>
+        {% endfor %}
+    </section>
+</div>
