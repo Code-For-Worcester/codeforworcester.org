@@ -1,20 +1,8 @@
 
-- name: Thad Kerosky
+- name: Prashant Hinge
   image:
-  email: thadk@codeforworcester.org
+  email: 
 
-- name: Annie LaCourt
+- name: Nick Van Wittenberghe
   image:
-  email: annie@codeforworcester.org
-
-- name: Alex Merritt
-  image: alex-merritt.jpg
-  email: alex@codeforworcester.org
-
-- name: Matt Zagaja
-  image: matt-zagaja.jpg
-  email: mattz@codeforworcester.org
-
-- name: Brian Sanders
-  image: brian-sanders.jpg
-  email: brian@codeforworcester.org
+  email: nvanwitt@codeforworcester.org
