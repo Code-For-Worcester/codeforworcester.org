@@ -21,18 +21,10 @@ baseurl: ''
 url: https://www.codeforworcester.org
 # NOTE:If you change the below donate_url you should also update the URL here: https://github.com/codeforworcester/.github/FUNDING.yml
 donate_url: https://codeforamerica.org/donate-to-a-brigade?utm_campaign=Code%20for%20Worcester&utm_source=codeforworcester.org
-hackpad_url: https://codeforworcester.hackpad.com/
-twitter_url: https://twitter.com/codeforworcester
 github_url: https://github.com/code-for-worcester
-meetup_url: https://meetup.com/Code-For-Worcester
-blog_url: https://medium.com/@CodeForWorcester
-events_url: https://cal.codeforworcester.org
+meetup_url: https://www.meetup.com/code-for-worcester/
 zoom_url: https://codeforamerica.zoom.us/meeting/register/tJEocO6prD4tEtxyZTta2yRj4V9XcKJvcBPP
-slack_url: https://communityinviter.com/apps/cfb-public/code-for-worcester-slack-invite
-youtube_url: https://www.youtube.com/c/codeforworcester
-facebook_url: https://www.facebook.com/codeforworcester/
-instagram_url: https://www.instagram.com/codeforworcester/
-newsletter_url: https://eepurl.com/5UcLX
-slack_team_id: T0556DP9Y
+slack_url: https://communityinviter.com/apps/codeforworcester/code-for-worcester
+slack_team_id: T01T64R4SJU
 plugins:
   - jekyll-redirect-from
