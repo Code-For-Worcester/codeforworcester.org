@@ -1,17 +1,14 @@
 - name: MyCity
   elevatorPitch: >
     Working on Alexa skills to connect cities to 311 information.
-  repository: https://github.com/codeforworcester/voiceapp311
+  repository: https://github.com/codeforboston/voiceapp311
   url: https://www.amazon.com/City-of-Worcester-Info/dp/B0843RR29K
-  partner:
-    - name: City of Worcester 311
-      url: https://www.cityofworcester.gov/311/
   lead: Jamie Martini
   technologies: Python, AWS
   slackChannel: mycity
   hangoutsSlug: mycity
 - name: Safe Water
-  repository: https://github.com/codeforworcester/safe-water
+  repository: https://github.com/codeforboston/safe-water
   url: https://www.crwa.org/flagging-program.html
   elevatorPitch: >-
     We are predicting and visualizing the presence of hazardous drinking and surface water contaminants.
@@ -25,7 +22,7 @@
   slackChannel: water
   hangoutsSlug: drinkingwater
 - name: Windfall Awareness project
-  repository: https://github.com/codeforworcester/windfall-elimination
+  repository: https://github.com/codeforboston/windfall-elimination
   url: https://ssacalculator.org
   elevatorPitch: >-
     A tool to help retirees affected by Social Security Windfall Elimination Program (WEP),
@@ -40,7 +37,7 @@
   slackChannel: windfall-awareness
   hangoutsSlug: windfallawareness
 - name: Plogalong
-  repository: https://github.com/codeforworcester/plogalong
+  repository: https://github.com/codeforboston/plogalong
   elevatorPitch: >-
     When you plog, you pick up trash as you go about your daily life... jogging,
     hiking, or simply walking down the street. Plogalong helps you track your
@@ -91,7 +88,7 @@
     * Texas Justice Initiative
     And many more...
 - name: JobHopper
-  repository: https://github.com/codeforworcester/jobhopper
+  repository: https://github.com/codeforboston/jobhopper
   elevatorPitch: >-
     The City of Somerville and a team of graduate students in Economics at
     Harvard University are collaborating to equip policymakers, workforce
@@ -112,7 +109,7 @@
     advocacy efforts as we aggregate student voices throughout MA to advance
     critical democracy legislation. The GGP is supported by over a dozen (and
     growing) student groups across Worcester College, and the Greater Worcester Area.
-  repository: https://github.com/codeforworcester/advocacy-maps
+  repository: https://github.com/codeforboston/advocacy-maps
   partner:
     - name: Worcester College Clough Center for Constitutional Democracy
       url: hhttps://www.bc.edu/content/bc-web/centers/clough.html
@@ -124,7 +121,7 @@
     We are a group of volunteers helping Massachusetts residents get vaccinated.
     Our site uses a mix of automated and crowdsourced data to show vaccine 
     appointment availability. VaccinateMA launched on January 17, 2021.
-  repository: https://github.com/codeforworcester/vaccinatema
+  repository: https://github.com/codeforboston/vaccinatema
   lead: John Deyrup
   slackChannel: vaccinatema-cfb-portal
   hangoutsSlug: vaccinatema
