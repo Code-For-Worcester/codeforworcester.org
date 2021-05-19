@@ -26,5 +26,9 @@ meetup_url: https://www.meetup.com/code-for-worcester/
 zoom_url: https://codeforamerica.zoom.us/meeting/register/tJEocO6prD4tEtxyZTta2yRj4V9XcKJvcBPP
 slack_url: https://communityinviter.com/apps/codeforworcester/code-for-worcester
 slack_team_id: T01T64R4SJU
+
+boston_url: https://www.codeforboston.org/
+boston_github_url: https://github.com/codeforboston
+
 plugins:
   - jekyll-redirect-from
