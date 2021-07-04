@@ -1,9 +1,9 @@
 - name: Community Connect
-  url: https://github.com/codeforworcester/communityconnect
+  url: https://github.com/codeforboston/communityconnect
   elevatorPitch: >-
     A health resource web app that collects information about businesses and
     organizations that promote healthy lifestyle choices
-  repository: https://github.com/codeforworcester/communityconnect
+  repository: https://github.com/codeforboston/communityconnect
   partner:
     - name: MGH Center for Community Health Improvement
       url: https://www.massgeneral.org/cchi/
@@ -16,56 +16,46 @@
     Prototyping a tool that can help case managers help
     their clients see how changes in pay can affect what
     they’re getting from public assistance programs.
-  url: https://codeforworcester.github.io/cliff-effects/
-  repository: https://github.com/codeforworcester/cliff-effects
+  url: https://codeforboston.github.io/cliff-effects/
+  repository: https://github.com/codeforboston/cliff-effects
   technologies: NodeJS, ReactJS
 - name: Ungentry
-  url: https://github.com/codeforworcester/ungentry
+  url: https://github.com/codeforboston/ungentry
 - name: MBTA.ninja
-  url: https://github.com/codeforworcester/mbta-ninja
+  url: https://github.com/codeforboston/mbta-ninja
 - name: CornerWise
-  url: https://github.com/codeforworcester/cornerwise
+  url: https://github.com/codeforboston/cornerwise
 - name: Interactive Film Documentary
   elevatorPitch: >
     Code and UI/UX for the invisible women of Delhi
   url: http://www.aashiyaan.org/
-  repository: https://github.com/codeforworcester/conversations
+  repository: https://github.com/codeforboston/conversations
   lead: Anandana Kapur
   leadUrl:
   technologies: React Native, YouTube API
 - name: Finda
-  url: https://github.com/codeforworcester/finda
+  url: https://github.com/codeforboston/finda
 - name: Cambridge Open Data Challenges
+  url: https://data.cambridgema.gov/General-Government/Civic-Innovation-Challenge-Inventory/x96z-hdnh/about
   news: >
     Public data sets with problem statements from the City of Cambridge
     https://data.cambridgema.gov/General-Government/Civic-Innovation-Challenge-Inventory/x96z-hdnh/about
     Kent Johnson's answer to one of the problem statements (this was demo'd at the 2017 Bloomberg What Works Cities conference):
     http://kentsj.com/Misc/Board_of_Zoning_Appeal_Requests_CT.html
 - name: Tools and Rules for Blockchain-Backed Individual Identity
+  url: https://www.meetup.com/Massachusetts-Legal-Hackers/events/239091160
   news: >
     https://www.meetup.com/Massachusetts-Legal-Hackers/events/239091160
     In the Prome Conference Room, 4th Floor CIC.
     Tonight is the third of five Legal Hack Nights dedicated to building out a reference implementation blockchain-backed individual identity digital signature app.  The app is intended to be a working prototype we can use to evaluate and work with individual identity innovation and to better understand how legal, technical and other requirements can be addressed in an integrated manner.
-    Massachusetts Legal Hackers is grateful to hack along with Code for Worcester during this special 5-part series!
-- name: Inman Square Intersection VM
-  news: >
-    Urban Planning with Virtual Reality: Inman Square Intersection
-
-    We're looking to create a moderately realistic model of the Inman Square intersection redesign as a way to communicate the City's plans and progress to the public. We'll also be testing how VR affects public opinion on a contentious planning issue.
-
-    Need skills:
-
-    - Sketchup or 3D modeling software in general
-    - Unity or AFrame
-    - Research / survey design
-
-    No VR experience required.
+    Massachusetts Legal Hackers is grateful to hack along with Code for Boston during this special 5-part series!
 - name: EnerSave
-  url: https://github.com/codeforworcester/cambridge_energy_app
+  url: https://github.com/codeforboston/cambridge_energy_app
 - name: Migrant Service Map
   url: https://migrantservicemap.com/
 - name: Harm Reduction
-  repository: https://github.com/codeforworcester/harm-reduction
+  url: https://github.com/codeforboston/harm-reduction
+  repository: https://github.com/codeforboston/harm-reduction
   elevatorPitch: >-
     We are developing a tool for the communities of Chelsea, Revere, Saugus, and Winthrop to
     improve multi-sector and multi-jurisdictional coordination for outreach, response, and
@@ -78,3 +68,44 @@
       url: https://www.revere.org/departments/substance-use-disorder-initiatives
   slackChannel: harm-reduction
   hangoutsSlug: harmreduction
+- name: Safe Water
+  repository: https://github.com/codeforboston/safe-water
+  url: https://www.crwa.org/flagging-program.html
+  elevatorPitch: >-
+    We are predicting and visualizing the presence of hazardous drinking and surface water contaminants.
+    Currently, we help the Charles River Watershed Association deploying their predictive model,
+    as well as visualizing and communicating their data.
+  partner:
+    - name: Charles River Watershed Association
+      url: https://www.crwa.org/
+  lead: François Delavy
+  technologies: Python, R, PHP
+  slackChannel: water
+  hangoutsSlug: drinkingwater
+- name: MyCity
+  elevatorPitch: >
+    Working on Alexa skills to connect cities to 311 information.
+  repository: https://github.com/codeforboston/voiceapp311
+  url: https://www.amazon.com/City-of-Boston-Info/dp/B0843RR29K
+  partner:
+    - name: City of Boston 311
+      url: https://www.cityofboston.gov/311/
+  lead: Jamie Martini
+  technologies: Python, AWS
+  slackChannel: mycity
+  hangoutsSlug: mycity
+- name: JobHopper
+  url: https://jobhopper.live
+  repository: https://github.com/codeforboston/jobhopper
+  elevatorPitch: >-
+    The City of Somerville and a team of graduate students in Economics at
+    Harvard University are collaborating to equip policymakers, workforce
+    development systems, and labor market analysts with an easy to use visual
+    tool to help them understand how job changers successfully move between
+    professions.
+  partner:
+    - name: City of Somerville
+      url: https://www.somervillema.gov
+  lead: Annie LaCourt
+  slackChannel: jobhopper
+  hangoutsSlug: jobhopper

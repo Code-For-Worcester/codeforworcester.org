@@ -11,11 +11,9 @@ type: inNavBar
     <section>
       <h2 class="spacer-0">Current Projects</h2>
       <div>
-              <p>The following initiatives are currently underway and
-                  accepting contributors. Projects
-              are open to volunteers of all skillsets - if you're interested, just show up
-              at one of our
-              <a href="{{site.meetup_url}}">Tuesday evening hack nights</a>!</p>
+              <p>The following initiatives are by <a href="{{site.boston_url}}">Code for Boston</a> and are currently underway and accepting contributors. Projects are open to volunteers of all skillsets.</p>
+              <p>If you're interested in starting a project for Code for Worcester just show up at one of our <a href="{{site.meetup_url}}">Tuesday evening hack nights</a>!</p>
+              <p>Do you think there's a problem that Code for Worcester can solve? <a href="#identify-problem">Reach out to us</a>.
       </div>
       <div class="container">
           {% for proj in site.data.projects.active %}
@@ -131,7 +129,8 @@ type: inNavBar
 
   <section>
     <h2 class="">Sampler of Completed Projects</h2>
-    <p>You can view all the projects we've ever done on <a href="{{site.github_url}}" target="_blank">GitHub</a>.</p>
+    <p>Below are Code for Boston's completed projects. You can view all the projects that Code for Boston has ever done on <a href="{{site.boston_github_url}}" target="_blank">GitHub</a>.</p>
+    <p>You can view all the upcoming projects that Code for Worcester is doing also on <a href="{{site.github_url}}" target="_blank">GitHub</a>.</p>
 
     <div class='cfbgrid'>
       {% for proj in site.data.projects.inactive %}
@@ -143,7 +142,7 @@ type: inNavBar
   </section>
 
   <section>
-    <h2>Identified a problem in your community?</h2>
+    <h2 id="identify-problem">Identified a problem in your community?</h2>
     <p>Maybe Code for Worcester can help and we can address that problem together. You can submit a problem statement to our core team using the button at the bottom of this page. Before you submit, please make sure your submission is in line with our few ground-rules below.</p>
 
     <h3>How we take on new projects</h3>
